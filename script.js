@@ -1,54 +1,43 @@
-const translations = {
-  en: {
-    navAbout:"About",navSkills:"Skills",navServices:"Services",navProjects:"Projects",navContact:"Contact",sayHello:"Let's talk",
-    eyebrow:"IT STUDENT · ASPIRING WEB DEVELOPER",heroHi:"Hello, I'm",heroLead:"I build thoughtful digital experiences and practical web solutions, turning ideas into useful products.",heroSub:"IT student at Community College of Amran, focused on learning, building, and growing as a developer.",viewWork:"Explore my work",moreAbout:"More about me",heroMetaOne:"Curious by nature",heroMetaTwo:"Building with purpose",stripLabel:"CURRENTLY EXPLORING",
-    aboutKicker:"GET TO KNOW ME",aboutTitle:"A little about <em>me.</em>",aboutIntro:"Technology is more than code — it's a way to solve real problems and make everyday work better.",aboutP1:"I'm Abdulmalik Saeed Al-Khudri, a fourth-level Bachelor's student in Information Technology at Community College of Amran. I'm developing my skills through hands-on practice and building projects that connect what I learn with real-world needs.",aboutP2:"My current interests include web application development, database systems, and the foundations of cybersecurity. I value clean work, continuous learning, and solutions that are simple to use.",connect:"Get in touch",factLevel:"Bachelor's level · IT",factMindset:"Mindset: keep improving",factQuote:"“Learn deeply. Build thoughtfully. Improve continuously.”",
-    skillsKicker:"WHAT I WORK WITH",skillsTitle:"Tools in my <em>toolkit.</em>",skillsIntro:"Technologies I've studied or used in practice. I'm continuously expanding this toolkit.",skillFront:"Structure, responsive layouts & interaction",skillBack:"Application logic & web development",skillData:"Data modeling & database fundamentals",skillTools:"Version control & continuous learning",skillsDisclaimer:"Skill list reflects my current learning and practical exposure — not a claim of expert-level proficiency.",
-    skillWebTitle:"Website Design & Development",skillWebValue:"Website design & development",skillNetworkTitle:"Networking · CCNA",skillNetworkValue:"Cisco networking · CCNA foundations",skillAndroidTitle:"Android Applications",skillAndroidValue:"Android application development",skillDatabaseTitle:"Databases",skillDatabaseValue:"Database design & management",skillAiTitle:"AI Tools & Workflows",skillAiValue:"Claude · AI assistants · AI models",skillAiDesc:"Using AI tools for research, planning, learning, and development support",
-servicesKicker:"WHAT I CAN HELP WITH",servicesTitle:"Solutions built around <em>your needs.</em>",servicesIntro:"I work with individuals, students, and businesses to plan and build practical digital solutions.",serviceSystems:"Business & management systems",serviceSystemsDesc:"Web-based systems that organize workflows, records, users, and daily operations.",serviceWeb:"Websites & online stores",serviceWebDesc:"Responsive websites and e-commerce experiences for products, services, and brands.",serviceGrad:"Graduation project solutions",serviceGradDesc:"Technical guidance, system analysis, design, implementation, and project development support.",serviceAndroid:"Android applications",serviceAndroidDesc:"Planning and developing mobile application ideas and connected solutions.",serviceHonesty:"Each project is scoped according to its requirements, timeline, and my current technical capacity. I discuss the details before committing to delivery.",storeProject:"Integrated E-commerce Website",storeDesc:"An online store project covering product browsing, shopping cart, order flow, and administration.",eduProject:"Institute & University Management System",eduDesc:"A system concept for managing academic operations, student information, courses, and administration.",androidProject:"Android Applications",androidDesc:"Mobile application ideas and prototypes focused on useful services and connected workflows.",whatsapp:"WhatsApp me",photoHint:"ADD YOUR PHOTO",
-skillWebTitle:"Website Design & Development",skillWebValue:"Website design & development",skillNetworkTitle:"Networking · CCNA",skillNetworkValue:"Cisco networking · CCNA foundations",skillAndroidTitle:"Android Applications",skillAndroidValue:"Android application development",skillDatabaseTitle:"Databases",skillDatabaseValue:"Database design & management",skillAiTitle:"AI Tools & Workflows",skillAiValue:"Claude · AI assistants · AI models",skillAiDesc:"Using AI tools for research, planning, learning, and development support",servicesKicker:"WHAT I CAN HELP WITH",servicesTitle:"Solutions built around <em>your needs.</em>",servicesIntro:"I work with individuals, students, and businesses to plan and build practical digital solutions.",serviceSystems:"Business & management systems",serviceSystemsDesc:"Web-based systems that organize workflows, records, users, and daily operations.",serviceWeb:"Websites & online stores",serviceWebDesc:"Responsive websites and e-commerce experiences for products, services, and brands.",serviceGrad:"Graduation project solutions",serviceGradDesc:"Technical guidance, system analysis, design, implementation, and project development support.",serviceAndroid:"Android applications",serviceAndroidDesc:"Planning and developing mobile application ideas and connected solutions.",serviceHonesty:"Each project is scoped according to its requirements, timeline, and my current technical capacity. I discuss the details before committing to delivery.",storeProject:"Integrated E-commerce Website",storeDesc:"An online store project covering product browsing, shopping cart, order flow, and administration.",eduProject:"Institute & University Management System",eduDesc:"A system concept for managing academic operations, student information, courses, and administration.",androidProject:"Android Applications",androidDesc:"Mobile application ideas and prototypes focused on useful services and connected workflows.",whatsapp:"WhatsApp me",photoHint:"ADD YOUR PHOTO",projectsKicker:"SELECTED WORK",projectsTitle:"Things I'm <em>building.</em>",projectsIntro:"A selection of academic and personal work. More projects will be added as they develop.",inProgress:"In development",projectName:"Graduation Projects Management System",projectDesc:"A web-based platform concept designed to organize graduation projects, student teams, supervisors, submissions, and evaluation workflows.",viewGithub:"View on GitHub",projectNote:"These are project areas and development work. Ask me for the current status, demo, and scope of any specific project.",
-    journeyKicker:"THE ROAD AHEAD",journeyTitle:"Always in <em>progress.</em>",journeyIntro:"The goal is not to know everything. It's to keep learning and become better at solving problems.",journeyNow:"Now",journeyNowTitle:"Strengthening my IT foundation",journeyNowDesc:"Studying core IT concepts and applying them through academic and practical projects.",journeyNext:"Next",journeyNextTitle:"Growing as a web developer",journeyNextDesc:"Improving my software engineering practices, backend development, and project quality.",journeyFuture:"Long term",journeyFutureTitle:"Exploring cybersecurity",journeyFutureDesc:"Building a stronger understanding of secure systems and ethical cybersecurity.",
-    contactKicker:"LET'S CONNECT",contactTitle:"Have an idea?<br><em>Let's build it.</em>",contactText:"I'm open to learning opportunities, meaningful collaborations, and conversations about technology.",backTop:"Back to top",footerText:"Designed & built with curiosity."
-  },
-  ar: {
-    navAbout:"نبذة عني",navSkills:"المهارات",navServices:"خدماتي",navProjects:"المشاريع",navContact:"تواصل معي",sayHello:"لنتواصل",
-    eyebrow:"طالب تقنية معلومات · مطور ويب طموح",heroHi:"مرحباً، أنا",heroLead:"أعمل على بناء تجارب رقمية مدروسة وحلول ويب عملية، وأحوّل الأفكار إلى منتجات مفيدة.",heroSub:"طالب تقنية معلومات في كلية المجتمع عمران، أركز على التعلم والتطبيق وتطوير نفسي كمبرمج.",viewWork:"استكشف أعمالي",moreAbout:"المزيد عني",heroMetaOne:"فضولي بطبيعتي",heroMetaTwo:"أبني بهدف واضح",stripLabel:"مجالات أعمل على تطويرها",
-    aboutKicker:"تعرّف عليّ",aboutTitle:"نبذة <em>عني.</em>",aboutIntro:"التقنية ليست مجرد أكواد؛ إنها وسيلة لحل المشكلات الحقيقية وتحسين الأعمال اليومية.",aboutP1:"أنا عبدالملك سعيد الخدري، طالب بكالوريوس تقنية معلومات في المستوى الرابع بكلية المجتمع عمران. أعمل على تطوير مهاراتي من خلال التطبيق العملي وبناء مشاريع تربط ما أتعلمه باحتياجات واقعية.",aboutP2:"تشمل اهتماماتي الحالية تطوير تطبيقات الويب، وأنظمة قواعد البيانات، وأساسيات الأمن السيبراني. أهتم بجودة العمل والتعلم المستمر وبناء حلول سهلة الاستخدام.",connect:"تواصل معي",factLevel:"بكالوريوس · تقنية معلومات",factMindset:"عقليتي: التطور المستمر",factQuote:"«تعلّم بعمق، وابنِ بإتقان، وطوّر نفسك باستمرار»",
-    skillsKicker:"التقنيات التي أستخدمها",skillsTitle:"أدواتي <em>التقنية.</em>",skillsIntro:"تقنيات درستها أو استخدمتها عملياً، وأواصل توسيع معرفتي بها.",skillFront:"بناء الصفحات والتصميم المتجاوب والتفاعل",skillBack:"منطق التطبيقات وتطوير الويب",skillData:"تصميم البيانات وأساسيات قواعد البيانات",skillTools:"إدارة الإصدارات والتعلم المستمر",skillsDisclaimer:"تعكس هذه القائمة مستوى تعلمي وخبرتي العملية الحالية، ولا تعني ادعاء الاحتراف في جميع التقنيات.",
-    skillWebTitle:"تصميم وتطوير المواقع",skillWebValue:"تصميم وتطوير المواقع الإلكترونية",skillNetworkTitle:"الشبكات · CCNA",skillNetworkValue:"شبكات سيسكو · أساسيات CCNA",skillAndroidTitle:"تطبيقات أندرويد",skillAndroidValue:"تصميم وتطوير تطبيقات أندرويد",skillDatabaseTitle:"قواعد البيانات",skillDatabaseValue:"تصميم وإدارة قواعد البيانات",skillAiTitle:"أدوات وتقنيات الذكاء الاصطناعي",skillAiValue:"Claude · مساعدات ونماذج الذكاء الاصطناعي",skillAiDesc:"استخدام أدوات الذكاء الاصطناعي في البحث والتخطيط والتعلم ودعم التطوير",
-servicesKicker:"ماذا أقدم؟",servicesTitle:"حلول تناسب <em>احتياجاتك.</em>",servicesIntro:"أعمل مع الأفراد والطلاب وأصحاب الأعمال على تخطيط وبناء حلول رقمية عملية.",serviceSystems:"الأنظمة الإدارية وأنظمة الأعمال",serviceSystemsDesc:"أنظمة ويب لتنظيم الإجراءات والبيانات والمستخدمين والعمليات اليومية.",serviceWeb:"المواقع والمتاجر الإلكترونية",serviceWebDesc:"مواقع متجاوبة وتجارب تجارة إلكترونية للمنتجات والخدمات والعلامات التجارية.",serviceGrad:"حلول ومشاريع التخرج",serviceGradDesc:"دعم تقني وتحليل الأنظمة وتصميمها وتنفيذها وتطوير مشاريع التخرج.",serviceAndroid:"تطبيقات أندرويد",serviceAndroidDesc:"تخطيط وتطوير أفكار تطبيقات الهاتف والحلول المرتبطة بها.",serviceHonesty:"يتم تحديد نطاق كل مشروع وفق متطلباته ووقته وقدرتي التقنية الحالية، ومناقشة التفاصيل قبل الالتزام بالتنفيذ والتسليم.",storeProject:"موقع متجر إلكتروني متكامل",storeDesc:"مشروع متجر إلكتروني يشمل عرض المنتجات وسلة التسوق وطلبات الشراء ولوحة الإدارة.",eduProject:"نظام إدارة المعاهد والجامعات",eduDesc:"تصور لنظام يدير العمليات الأكاديمية وبيانات الطلاب والمقررات والإدارة.",androidProject:"تطبيقات أندرويد",androidDesc:"أفكار ونماذج أولية لتطبيقات هاتف تقدم خدمات مفيدة وتربط العمليات ببعضها.",whatsapp:"تواصل عبر واتساب",photoHint:"أضف صورتك الشخصية",
-skillWebTitle:"تصميم وتطوير المواقع",skillWebValue:"تصميم وتطوير المواقع الإلكترونية",skillNetworkTitle:"الشبكات · CCNA",skillNetworkValue:"شبكات سيسكو · أساسيات CCNA",skillAndroidTitle:"تطبيقات أندرويد",skillAndroidValue:"تصميم وتطوير تطبيقات أندرويد",skillDatabaseTitle:"قواعد البيانات",skillDatabaseValue:"تصميم وإدارة قواعد البيانات",skillAiTitle:"أدوات وتقنيات الذكاء الاصطناعي",skillAiValue:"Claude · مساعدات ونماذج الذكاء الاصطناعي",skillAiDesc:"استخدام أدوات الذكاء الاصطناعي في البحث والتخطيط والتعلم ودعم التطوير",servicesKicker:"ماذا أقدم؟",servicesTitle:"حلول تناسب <em>احتياجاتك.</em>",servicesIntro:"أعمل مع الأفراد والطلاب وأصحاب الأعمال على تخطيط وبناء حلول رقمية عملية.",serviceSystems:"الأنظمة الإدارية وأنظمة الأعمال",serviceSystemsDesc:"أنظمة ويب لتنظيم الإجراءات والبيانات والمستخدمين والعمليات اليومية.",serviceWeb:"المواقع والمتاجر الإلكترونية",serviceWebDesc:"مواقع متجاوبة وتجارب تجارة إلكترونية للمنتجات والخدمات والعلامات التجارية.",serviceGrad:"حلول ومشاريع التخرج",serviceGradDesc:"دعم تقني وتحليل الأنظمة وتصميمها وتنفيذها وتطوير مشاريع التخرج.",serviceAndroid:"تطبيقات أندرويد",serviceAndroidDesc:"تخطيط وتطوير أفكار تطبيقات الهاتف والحلول المرتبطة بها.",serviceHonesty:"يتم تحديد نطاق كل مشروع وفق متطلباته ووقته وقدرتي التقنية الحالية، ومناقشة التفاصيل قبل الالتزام بالتنفيذ والتسليم.",storeProject:"موقع متجر إلكتروني متكامل",storeDesc:"مشروع متجر إلكتروني يشمل عرض المنتجات وسلة التسوق وطلبات الشراء ولوحة الإدارة.",eduProject:"نظام إدارة المعاهد والجامعات",eduDesc:"تصور لنظام يدير العمليات الأكاديمية وبيانات الطلاب والمقررات والإدارة.",androidProject:"تطبيقات أندرويد",androidDesc:"أفكار ونماذج أولية لتطبيقات هاتف تقدم خدمات مفيدة وتربط العمليات ببعضها.",whatsapp:"تواصل عبر واتساب",photoHint:"أضف صورتك الشخصية",projectsKicker:"أعمال مختارة",projectsTitle:"مشاريع <em>أعمل عليها.</em>",projectsIntro:"مجموعة من الأعمال الأكاديمية والشخصية، وسأضيف المزيد مع تطورها.",inProgress:"قيد التطوير",projectName:"نظام إدارة مشاريع التخرج",projectDesc:"تصور لمنصة ويب تهدف إلى تنظيم مشاريع التخرج وفرق الطلاب والمشرفين وعمليات التسليم والتقييم.",viewGithub:"مشاهدة على GitHub",projectNote:"هذه مجالات ومشاريع عمل وتطوير. تواصل معي لمعرفة حالة كل مشروع ونطاقه وطلب عرض توضيحي عند توفره.",
-    journeyKicker:"الخطوات القادمة",journeyTitle:"رحلة <em>مستمرة.</em>",journeyIntro:"الهدف ليس معرفة كل شيء، بل مواصلة التعلم وتحسين القدرة على حل المشكلات.",journeyNow:"حالياً",journeyNowTitle:"تعزيز أساسياتي في تقنية المعلومات",journeyNowDesc:"دراسة المفاهيم الأساسية وتطبيقها من خلال المشاريع الأكاديمية والعملية.",journeyNext:"الخطوة القادمة",journeyNextTitle:"التطور كمطور ويب",journeyNextDesc:"تحسين ممارسات هندسة البرمجيات وتطوير الواجهات الخلفية وجودة المشاريع.",journeyFuture:"على المدى البعيد",journeyFutureTitle:"التعمق في الأمن السيبراني",journeyFutureDesc:"بناء فهم أقوى للأنظمة الآمنة ومجالات الأمن السيبراني الأخلاقي.",
-    contactKicker:"لنبقَ على تواصل",contactTitle:"لديك فكرة؟<br><em>لنبنِها معاً.</em>",contactText:"أرحب بفرص التعلم والتعاون المفيد والنقاشات المتعلقة بالتقنية.",backTop:"العودة للأعلى",footerText:"صُمم وبُني بشغف وفضول للتعلم."
-  }
-};
-let currentLang = "en";
-const langToggle = document.getElementById("langToggle");
-function setLanguage(lang){
-  currentLang = lang;
-  document.documentElement.lang = lang;
-  document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
-  document.body.dir = lang === "ar" ? "rtl" : "ltr";
-  document.querySelectorAll("[data-i18n]").forEach(el=>{
-    const key = el.dataset.i18n;
-    if(translations[lang][key] !== undefined) el.innerHTML = translations[lang][key];
+const languageButton = document.getElementById("language");
+const nav = document.getElementById("nav");
+const menuButton = document.getElementById("menu");
+let currentLanguage = "ar";
+
+function setLanguage(language) {
+  currentLanguage = language;
+  document.documentElement.lang = language;
+  document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
+  document.body.dir = language === "ar" ? "rtl" : "ltr";
+
+  document.querySelectorAll("[data-ar][data-en]").forEach((element) => {
+    const value = element.dataset[language];
+    if (value !== undefined) element.innerHTML = value;
   });
-  langToggle.textContent = lang === "en" ? "عربي" : "English";
-  langToggle.setAttribute("aria-label", lang === "en" ? "Switch to Arabic" : "Switch to English");
-  document.title = lang === "en" ? "Abdulmalik Saeed Al-Khudri | IT Developer" : "عبدالملك سعيد الخدري | مطور تقنية معلومات";
-  document.getElementById("mainNav").classList.remove("open");
-  document.getElementById("menuToggle").setAttribute("aria-expanded","false");
+
+  languageButton.textContent = language === "ar" ? "English" : "العربية";
+  languageButton.setAttribute("aria-label", language === "ar" ? "Switch to English" : "التبديل إلى العربية");
+  document.title = language === "ar"
+    ? "عبدالملك سعيد الخدري | مطور حلول رقمية"
+    : "Abdulmalik Saeed Al-Khudri | Digital Solutions Developer";
+
+  nav.classList.remove("open");
+  menuButton.setAttribute("aria-expanded", "false");
 }
-langToggle.addEventListener("click",()=>setLanguage(currentLang === "en" ? "ar" : "en"));
-const menuToggle = document.getElementById("menuToggle");
-menuToggle.addEventListener("click",()=>{
-  const nav = document.getElementById("mainNav");
-  const open = nav.classList.toggle("open");
-  menuToggle.setAttribute("aria-expanded",String(open));
+
+languageButton.addEventListener("click", () => {
+  setLanguage(currentLanguage === "ar" ? "en" : "ar");
 });
-document.querySelectorAll(".main-nav a").forEach(link=>link.addEventListener("click",()=>{
-  document.getElementById("mainNav").classList.remove("open");
-  menuToggle.setAttribute("aria-expanded","false");
-}));
+
+menuButton.addEventListener("click", () => {
+  const isOpen = nav.classList.toggle("open");
+  menuButton.setAttribute("aria-expanded", String(isOpen));
+});
+
+document.querySelectorAll(".nav a").forEach((link) => {
+  link.addEventListener("click", () => {
+    nav.classList.remove("open");
+    menuButton.setAttribute("aria-expanded", "false");
+  });
+});
+
 document.getElementById("year").textContent = new Date().getFullYear();
-setLanguage("en");

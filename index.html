@@ -1,137 +1,177 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f9fc">
-  <meta name="description" content="Abdulmalik Saeed Al-Khudri — IT student and web developer interested in building useful digital products.">
-  <title>Abdulmalik Saeed Al-Khudri | IT Developer</title>
+  <meta name="theme-color" content="#f6f8fc">
+  <meta name="description" content="عبدالملك سعيد الخدري — طالب تقنية معلومات ومطور حلول رقمية ومواقع وأنظمة وتطبيقات.">
+  <title>عبدالملك سعيد الخدري | مطور حلول رقمية</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="page-glow glow-one"></div><div class="page-glow glow-two"></div>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Home"><span class="brand-mark">A</span><span>ABDULMALIK<span class="brand-dot">.</span></span></a>
-    <nav class="main-nav" id="mainNav">
-      <a href="#about" data-i18n="navAbout">About</a>
-      <a href="#skills" data-i18n="navSkills">Skills</a>
-      <a href="#projects" data-i18n="navProjects">Projects</a>
-      <a href="#contact" data-i18n="navContact">Contact</a>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="header">
+    <a class="logo" href="#home"><span class="logo-icon">A</span><span>ABDULMALIK<span class="blue">.</span></span></a>
+    <nav class="nav" id="nav">
+      <a href="#about" data-ar="من أنا" data-en="About">من أنا</a>
+      <a href="#skills" data-ar="المهارات" data-en="Skills">المهارات</a>
+      <a href="#projects" data-ar="المشاريع" data-en="Projects">المشاريع</a>
+      <a href="#contact" data-ar="تواصل معي" data-en="Contact">تواصل معي</a>
     </nav>
     <div class="header-actions">
-      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">عربي</button>
-      <a class="header-cta" href="#contact" data-i18n="sayHello">Let's talk <span>↗</span></a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <button class="language" id="language" type="button">English</button>
+      <a class="header-contact" href="#contact" data-ar="ابدأ مشروعك" data-en="Start a project">ابدأ مشروعك <span>↗</span></a>
+      <button class="menu" id="menu" aria-label="فتح القائمة" aria-expanded="false"><i></i><i></i></button>
     </div>
   </header>
 
   <main>
-    <section class="hero section-wrap" id="home">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="status-dot"></span><span data-i18n="eyebrow">IT STUDENT · ASPIRING WEB DEVELOPER</span></div>
-        <h1><span data-i18n="heroHi">Hello, I'm</span><br><span class="gradient-text">Abdulmalik</span><span class="heading-period">.</span></h1>
-        <p class="hero-lead" data-i18n="heroLead">I build thoughtful digital experiences and practical web solutions, turning ideas into useful products.</p>
-        <p class="hero-sub" data-i18n="heroSub">IT student at Community College of Amran, focused on learning, building, and growing as a developer.</p>
+    <section class="hero wrap" id="home">
+      <div class="hero-text">
+        <div class="availability"><span></span><b data-ar="متاح للتعاون والفرص المهنية" data-en="Open to collaboration & opportunities">متاح للتعاون والفرص المهنية</b></div>
+        <p class="overline" data-ar="طالب تقنية معلومات · مطور حلول رقمية" data-en="INFORMATION TECHNOLOGY · DIGITAL SOLUTIONS">طالب تقنية معلومات · مطور حلول رقمية</p>
+        <h1><span data-ar="أحوّل الأفكار" data-en="Turning ideas">أحوّل الأفكار</span><br><em data-ar="إلى حلول رقمية." data-en="into digital solutions.">إلى حلول رقمية.</em></h1>
+        <p class="hero-description" data-ar="أنا عبدالملك سعيد الخدري، أدرس تقنية المعلومات وأعمل على تصميم وتطوير المواقع والأنظمة والتطبيقات. أركز على فهم احتياج العميل وبناء حلول عملية قابلة للاستخدام والتطوير." data-en="I'm Abdulmalik Saeed Al-Khudri, an Information Technology student focused on designing and developing websites, systems, and applications. I value understanding real needs and building practical solutions.">أنا عبدالملك سعيد الخدري، أدرس تقنية المعلومات وأعمل على تصميم وتطوير المواقع والأنظمة والتطبيقات. أركز على فهم احتياج العميل وبناء حلول عملية قابلة للاستخدام والتطوير.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#projects"><span data-i18n="viewWork">Explore my work</span><span class="button-arrow">↗</span></a>
-          <a class="text-link" href="#about"><span data-i18n="moreAbout">More about me</span><span>↓</span></a>
+          <a class="btn primary" href="#projects"><span data-ar="استعرض أعمالي" data-en="Explore my work">استعرض أعمالي</span><b>↗</b></a>
+          <a class="btn secondary" href="#contact"><span data-ar="تواصل معي" data-en="Contact me">تواصل معي</span><b>↓</b></a>
         </div>
-        <div class="hero-meta"><span><b>01</b> <span data-i18n="heroMetaOne">Curious by nature</span></span><span class="meta-divider"></span><span><b>02</b> <span data-i18n="heroMetaTwo">Building with purpose</span></span></div>
+        <div class="hero-points">
+          <span><b>01</b><small data-ar="حلول حسب الاحتياج" data-en="Purpose-built solutions">حلول حسب الاحتياج</small></span>
+          <span><b>02</b><small data-ar="تطوير مستمر" data-en="Continuous learning">تطوير مستمر</small></span>
+          <span><b>03</b><small data-ar="اهتمام بالتفاصيل" data-en="Attention to detail">اهتمام بالتفاصيل</small></span>
+        </div>
       </div>
-      <div class="hero-visual" aria-label="Abstract developer illustration">
-        <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div>
-        <div class="visual-card card-back"><span class="tiny-label">CREATIVE PROCESS</span><div class="mini-bars"><i></i><i></i><i></i><i></i></div><span class="card-caption">Ideas → Interface → Impact</span></div>
-        <div class="visual-card main-visual-card">
-          <div class="visual-card-top"><span class="window-dots"><i></i><i></i><i></i></span><span class="code-label">developer.js</span></div>
-          <div class="code-lines">
-            <p><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</p>
-            <p class="indent"><span class="code-green">name</span>: <span class="code-orange">'Abdulmalik'</span>,</p>
-            <p class="indent"><span class="code-green">focus</span>: <span class="code-orange">'Web Development'</span>,</p>
-            <p class="indent"><span class="code-green">mindset</span>: <span class="code-orange">'Always learning'</span></p>
-            <p>};</p>
-            <p class="code-comment">// Building what's next.</p>
+      <div class="hero-art">
+        <div class="photo-frame">
+          <div class="photo-backdrop"></div>
+          <img src="profile.jpg" alt="صورة عبدالملك سعيد الخدري" class="portrait">
+          <div class="photo-caption"><span class="caption-mark">✳</span><span><b data-ar="عبدالملك سعيد الخدري" data-en="Abdulmalik Saeed Al-Khudri">عبدالملك سعيد الخدري</b><small data-ar="تقنية المعلومات وتطوير البرمجيات" data-en="IT & Software Development">تقنية المعلومات وتطوير البرمجيات</small></span></div>
+        </div>
+        <div class="float-card float-top"><span class="float-icon">⌘</span><span><b data-ar="تطوير الويب" data-en="Web Development">تطوير الويب</b><small>Web · Systems</small></span></div>
+        <div class="float-card float-bottom"><span class="float-icon green">◈</span><span><b data-ar="حلول تقنية" data-en="Technology Solutions">حلول تقنية</b><small>Ideas → Products</small></span></div>
+        <div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+      </div>
+    </section>
+
+    <section class="quick-strip">
+      <div class="wrap strip-inner">
+        <span data-ar="مجالات اهتمامي" data-en="AREAS OF FOCUS">مجالات اهتمامي</span>
+        <b data-ar="تصميم وتطوير المواقع" data-en="Web Design & Development">تصميم وتطوير المواقع</b><i></i>
+        <b data-ar="الشبكات" data-en="Networking">الشبكات</b><i></i>
+        <b data-ar="تطبيقات أندرويد" data-en="Android Apps">تطبيقات أندرويد</b><i></i>
+        <b data-ar="قواعد البيانات" data-en="Databases">قواعد البيانات</b>
+      </div>
+    </section>
+
+    <section class="section wrap" id="about">
+      <div class="section-label"><span>01</span><b data-ar="نبذة تعريفية" data-en="ABOUT ME">نبذة تعريفية</b></div>
+      <div class="section-heading">
+        <h2 data-ar="تقنية أفهمها،<br><em>وحلول أعمل على بنائها.</em>" data-en="Technology I understand,<br><em>solutions I work to build.</em>">تقنية أفهمها،<br><em>وحلول أعمل على بنائها.</em></h2>
+        <p data-ar="أؤمن أن نجاح أي مشروع تقني يبدأ بفهم المشكلة قبل كتابة الكود." data-en="I believe every successful technology project starts with understanding the problem before writing code.">أؤمن أن نجاح أي مشروع تقني يبدأ بفهم المشكلة قبل كتابة الكود.</p>
+      </div>
+      <div class="about-layout">
+        <div class="about-copy">
+          <p data-ar="أنا عبدالملك سعيد الخدري، طالب بكالوريوس تقنية معلومات في المستوى الرابع بكلية المجتمع عمران. أعمل على تطوير خبرتي من خلال الدراسة والتطبيق العملي والمشاركة في بناء مشاريع برمجية متنوعة." data-en="I'm Abdulmalik Saeed Al-Khudri, a fourth-level Bachelor's student in Information Technology at Community College of Amran. I build my experience through academic study, hands-on practice, and developing different software projects.">أنا عبدالملك سعيد الخدري، طالب بكالوريوس تقنية معلومات في المستوى الرابع بكلية المجتمع عمران. أعمل على تطوير خبرتي من خلال الدراسة والتطبيق العملي والمشاركة في بناء مشاريع برمجية متنوعة.</p>
+          <p data-ar="اهتم بتصميم وتطوير المواقع والأنظمة الإدارية، وتطبيقات أندرويد، وقواعد البيانات، والشبكات. كما أستفيد من أدوات الذكاء الاصطناعي مثل Claude وغيرها في البحث والتعلم وتحليل الأفكار وتسريع سير العمل، وقد التحقت بدورات تدريبية في هذا المجال." data-en="My interests include website and business-system development, Android applications, databases, and networking. I also use AI tools such as Claude and other models for research, learning, idea analysis, and workflow support, and have completed training courses in this area.">اهتم بتصميم وتطوير المواقع والأنظمة الإدارية، وتطبيقات أندرويد، وقواعد البيانات، والشبكات. كما أستفيد من أدوات الذكاء الاصطناعي مثل Claude وغيرها في البحث والتعلم وتحليل الأفكار وتسريع سير العمل، وقد التحقت بدورات تدريبية في هذا المجال.</p>
+          <p data-ar="أطمح إلى العمل ضمن فريق تقني احترافي، واكتساب خبرة أعمق، وتقديم منتجات رقمية تساعد الأفراد والمؤسسات على إنجاز أعمالهم بكفاءة." data-en="My goal is to grow within a professional technology team, deepen my practical experience, and deliver digital products that help people and organizations work more effectively.">أطمح إلى العمل ضمن فريق تقني احترافي، واكتساب خبرة أعمق، وتقديم منتجات رقمية تساعد الأفراد والمؤسسات على إنجاز أعمالهم بكفاءة.</p>
+        </div>
+        <aside class="about-aside">
+          <div class="info-tile"><small data-ar="التخصص" data-en="FIELD OF STUDY">التخصص</small><b data-ar="تقنية المعلومات" data-en="Information Technology">تقنية المعلومات</b></div>
+          <div class="info-tile"><small data-ar="المرحلة الدراسية" data-en="EDUCATION">المرحلة الدراسية</small><b data-ar="المستوى الرابع · بكالوريوس" data-en="Fourth Level · Bachelor's">المستوى الرابع · بكالوريوس</b></div>
+          <div class="info-tile"><small data-ar="الاهتمام المهني" data-en="PROFESSIONAL INTEREST">الاهتمام المهني</small><b data-ar="تطوير البرمجيات والحلول الرقمية" data-en="Software & Digital Solutions">تطوير البرمجيات والحلول الرقمية</b></div>
+          <div class="quote-tile"><span>“</span><p data-ar="أتعلم باستمرار، وأحوّل ما أتعلمه إلى تطبيق عملي." data-en="I keep learning, then turn what I learn into practical work.">أتعلم باستمرار، وأحوّل ما أتعلمه إلى تطبيق عملي.</p></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="skills-area" id="skills">
+      <div class="section wrap">
+        <div class="section-label"><span>02</span><b data-ar="المهارات والخبرات" data-en="SKILLS & EXPERIENCE">المهارات والخبرات</b></div>
+        <div class="section-heading">
+          <h2 data-ar="مجالات أعمل على<br><em>تطويرها باستمرار.</em>" data-en="Areas I keep<br><em>developing.</em>">مجالات أعمل على<br><em>تطويرها باستمرار.</em></h2>
+          <p data-ar="أعرض هنا مجالات معرفتي وتطبيقي العملي، مع توضيح الأدوات والتقنيات المرتبطة بكل مجال." data-en="Here are the areas I study and practice, with the tools and technologies associated with each.">أعرض هنا مجالات معرفتي وتطبيقي العملي، مع توضيح الأدوات والتقنيات المرتبطة بكل مجال.</p>
+        </div>
+        <div class="skills-list">
+          <article class="skill-row">
+            <div class="skill-number">01</div><div class="skill-icon">⌘</div>
+            <div class="skill-content"><h3 data-ar="تصميم وتطوير مواقع الويب" data-en="Website Design & Development">تصميم وتطوير مواقع الويب</h3><p data-ar="تصميم واجهات متجاوبة وتطوير مواقع وتطبيقات ويب." data-en="Designing responsive interfaces and developing websites and web applications.">تصميم واجهات متجاوبة وتطوير مواقع وتطبيقات ويب.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span><span>PHP</span><span>Laravel</span></div></div>
+            <span class="skill-arrow">↗</span>
+          </article>
+          <article class="skill-row">
+            <div class="skill-number">02</div><div class="skill-icon green-icon">⌁</div>
+            <div class="skill-content"><h3 data-ar="شبكات الحاسوب · Cisco CCNA" data-en="Computer Networking · Cisco CCNA">شبكات الحاسوب · Cisco CCNA</h3><p data-ar="فهم أساسيات الشبكات، إعداد الأجهزة، العنونة، والتعامل مع مفاهيم التوجيه والتبديل." data-en="Understanding networking fundamentals, device configuration, addressing, routing, and switching concepts.">فهم أساسيات الشبكات، إعداد الأجهزة، العنونة، والتعامل مع مفاهيم التوجيه والتبديل.</p><div class="tags"><span>Cisco</span><span>CCNA Fundamentals</span><span>Packet Tracer</span><span>TCP/IP</span></div></div>
+            <span class="skill-arrow">↗</span>
+          </article>
+          <article class="skill-row">
+            <div class="skill-number">03</div><div class="skill-icon purple-icon">▣</div>
+            <div class="skill-content"><h3 data-ar="تصميم وبرمجة تطبيقات أندرويد" data-en="Android App Design & Development">تصميم وبرمجة تطبيقات أندرويد</h3><p data-ar="تحليل أفكار تطبيقات الهاتف، تصميم الواجهات، والعمل على بناء تطبيقات عملية." data-en="Exploring mobile-app requirements, designing interfaces, and working on practical Android applications.">تحليل أفكار تطبيقات الهاتف، تصميم الواجهات، والعمل على بناء تطبيقات عملية.</p><div class="tags"><span>Android</span><span>UI Design</span><span>Mobile Applications</span></div></div>
+            <span class="skill-arrow">↗</span>
+          </article>
+          <article class="skill-row">
+            <div class="skill-number">04</div><div class="skill-icon orange-icon">◫</div>
+            <div class="skill-content"><h3 data-ar="إدارة وتصميم قواعد البيانات" data-en="Database Design & Management">إدارة وتصميم قواعد البيانات</h3><p data-ar="تصميم الجداول والعلاقات والاستعلامات وتنظيم بيانات الأنظمة." data-en="Designing tables and relationships, writing queries, and organizing application data.">تصميم الجداول والعلاقات والاستعلامات وتنظيم بيانات الأنظمة.</p><div class="tags"><span>MySQL</span><span>SQL</span><span>Database Design</span></div></div>
+            <span class="skill-arrow">↗</span>
+          </article>
+          <article class="skill-row">
+            <div class="skill-number">05</div><div class="skill-icon ai-icon">✦</div>
+            <div class="skill-content"><h3 data-ar="أدوات الذكاء الاصطناعي" data-en="AI Tools & Productivity">أدوات الذكاء الاصطناعي</h3><p data-ar="خبرة استخدام أدوات ونماذج الذكاء الاصطناعي في البحث والتخطيط والتعلم ودعم تطوير البرمجيات، مع الاستفادة من الدورات التدريبية." data-en="Practical use of AI tools and models for research, planning, learning, and software-development support, supported by training courses.">خبرة استخدام أدوات ونماذج الذكاء الاصطناعي في البحث والتخطيط والتعلم ودعم تطوير البرمجيات، مع الاستفادة من الدورات التدريبية.</p><div class="tags"><span>Claude</span><span>AI Assistants</span><span>AI Models</span></div></div>
+            <span class="skill-arrow">↗</span>
+          </article>
+        </div>
+        <p class="skills-note" data-ar="أعرض المهارات وفق خبرتي الحالية وتطبيقي العملي، ولا أدّعي امتلاك شهادات مهنية لم أتحصل عليها." data-en="Skills are presented according to my current learning and practical experience. I do not claim professional certifications I have not earned.">أعرض المهارات وفق خبرتي الحالية وتطبيقي العملي، ولا أدّعي امتلاك شهادات مهنية لم أتحصل عليها.</p>
+      </div>
+    </section>
+
+    <section class="section wrap" id="projects">
+      <div class="section-label"><span>03</span><b data-ar="المشاريع" data-en="PROJECTS">المشاريع</b></div>
+      <div class="section-heading">
+        <h2 data-ar="أفكار ومشاريع<br><em>أعمل على تطويرها.</em>" data-en="Projects & ideas<br><em>I'm developing.</em>">أفكار ومشاريع<br><em>أعمل على تطويرها.</em></h2>
+        <p data-ar="نماذج من مجالات المشاريع التي أعمل عليها أو أطور أفكارها. يمكن مناقشة تفاصيل كل مشروع ونطاق تنفيذه عند التواصل." data-en="A selection of project areas I'm working on or developing. Scope and implementation details can be discussed when you get in touch.">نماذج من مجالات المشاريع التي أعمل عليها أو أطور أفكارها. يمكن مناقشة تفاصيل كل مشروع ونطاق تنفيذه عند التواصل.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card"><div class="project-visual visual-one"><span class="project-badge">01 / WEB SYSTEM</span><div class="mock-window"><div class="mock-top"><i></i><i></i><i></i><b>PROJECT MANAGER</b></div><div class="mock-body"><aside><i></i><i></i><i></i><i></i></aside><div class="mock-content"><b></b><div><i></i><i></i><i></i></div><section><i></i><i></i><i></i></section></div></div></div></div><div class="project-copy"><span class="project-type" data-ar="نظام ويب إداري" data-en="MANAGEMENT WEB SYSTEM">نظام ويب إداري</span><h3 data-ar="نظام إدارة مشاريع التخرج" data-en="Graduation Projects Management System">نظام إدارة مشاريع التخرج</h3><p data-ar="نظام لتنظيم مشاريع التخرج ومتابعة الطلاب والمشرفين ومراحل التنفيذ والتقييم." data-en="A system for organizing graduation projects and tracking students, supervisors, project stages, and evaluations.">نظام لتنظيم مشاريع التخرج ومتابعة الطلاب والمشرفين ومراحل التنفيذ والتقييم.</p><div class="tags"><span>Laravel</span><span>PHP</span><span>MySQL</span></div></div></article>
+        <article class="project-card"><div class="project-visual visual-two"><span class="project-badge">02 / E-COMMERCE</span><div class="store-graphic"><div class="store-top"></div><div class="store-products"><i></i><i></i><i></i></div><b>ONLINE STORE</b></div></div><div class="project-copy"><span class="project-type" data-ar="تجارة إلكترونية" data-en="E-COMMERCE">تجارة إلكترونية</span><h3 data-ar="موقع متجر إلكتروني متكامل" data-en="Full E-commerce Website">موقع متجر إلكتروني متكامل</h3><p data-ar="متجر إلكتروني لعرض المنتجات وإدارة السلة والطلبات والعملاء والعمليات الإدارية." data-en="An online store for showcasing products and managing carts, orders, customers, and administration.">متجر إلكتروني لعرض المنتجات وإدارة السلة والطلبات والعملاء والعمليات الإدارية.</p><div class="tags"><span>Web Development</span><span>Shopping Cart</span><span>Database</span></div></div></article>
+        <article class="project-card"><div class="project-visual visual-three"><span class="project-badge">03 / EDUCATION</span><div class="campus-graphic"><div class="campus-roof"></div><div class="campus-columns"><i></i><i></i><i></i></div><div class="campus-base"></div></div></div><div class="project-copy"><span class="project-type" data-ar="نظام تعليمي" data-en="EDUCATION SYSTEM">نظام تعليمي</span><h3 data-ar="نظام إدارة المعاهد والجامعات" data-en="Institute & University Management System">نظام إدارة المعاهد والجامعات</h3><p data-ar="نظام لإدارة بيانات الطلاب والتسجيل والمقررات والجداول والعمليات الأكاديمية." data-en="A system for managing student records, registration, courses, schedules, and academic operations.">نظام لإدارة بيانات الطلاب والتسجيل والمقررات والجداول والعمليات الأكاديمية.</p><div class="tags"><span>Management System</span><span>Education</span><span>Database</span></div></div></article>
+        <article class="project-card"><div class="project-visual visual-four"><span class="project-badge">04 / MOBILE APP</span><div class="phone-graphic"><div class="phone-speaker"></div><div class="phone-screen"><span>APP</span><i></i><i></i><i></i><b>Mobile Solution</b></div></div></div><div class="project-copy"><span class="project-type" data-ar="تطبيق هاتف" data-en="MOBILE APPLICATION">تطبيق هاتف</span><h3 data-ar="تطبيق تشغيلي" data-en="Operational Application">تطبيق تشغيلي</h3><p data-ar="تطبيق مخصص لتنفيذ ومتابعة إجراءات تشغيلية، وفق احتياجات الجهة وطبيعة العمل." data-en="A mobile application concept for carrying out and tracking operational tasks based on an organization's workflow.">تطبيق مخصص لتنفيذ ومتابعة إجراءات تشغيلية، وفق احتياجات الجهة وطبيعة العمل.</p><div class="tags"><span>Android</span><span>Mobile UI</span><span>Operations</span></div></div></article>
+      </div>
+    </section>
+
+    <section class="services-area">
+      <div class="section wrap">
+        <div class="section-label"><span>04</span><b data-ar="ماذا أقدم؟" data-en="WHAT I OFFER">ماذا أقدم؟</b></div>
+        <div class="section-heading"><h2 data-ar="خدمات تقنية تبدأ<br><em>من احتياجك.</em>" data-en="Technology services<br><em>built around your needs.</em>">خدمات تقنية تبدأ<br><em>من احتياجك.</em></h2><p data-ar="أستقبل طلبات تنفيذ الحلول البرمجية، وأناقش معك الفكرة والمتطلبات قبل تحديد خطة العمل." data-en="I welcome software requests and discuss the idea and requirements with you before defining a delivery plan.">أستقبل طلبات تنفيذ الحلول البرمجية، وأناقش معك الفكرة والمتطلبات قبل تحديد خطة العمل.</p></div>
+        <div class="services-grid">
+          <div class="service"><span>01</span><b data-ar="تصميم وتطوير المواقع" data-en="Website Design & Development">تصميم وتطوير المواقع</b><p data-ar="مواقع تعريفية وتجارية وصفحات ويب متجاوبة." data-en="Business websites, online stores, and responsive web pages.">مواقع تعريفية وتجارية وصفحات ويب متجاوبة.</p></div>
+          <div class="service"><span>02</span><b data-ar="برمجة الأنظمة الإدارية" data-en="Business Systems">برمجة الأنظمة الإدارية</b><p data-ar="أنظمة لإدارة الأعمال والبيانات والإجراءات." data-en="Systems for managing operations, records, and workflows.">أنظمة لإدارة الأعمال والبيانات والإجراءات.</p></div>
+          <div class="service"><span>03</span><b data-ar="مشاريع التخرج" data-en="Graduation Projects">مشاريع التخرج</b><p data-ar="تحليل وتصميم وتطوير المشاريع والحلول البرمجية." data-en="Analysis, design, and development support for software projects.">تحليل وتصميم وتطوير المشاريع والحلول البرمجية.</p></div>
+          <div class="service"><span>04</span><b data-ar="تطبيقات أندرويد" data-en="Android Applications">تطبيقات أندرويد</b><p data-ar="تصميم وبرمجة تطبيقات الهاتف حسب المتطلبات." data-en="Designing and developing mobile apps based on requirements.">تصميم وبرمجة تطبيقات الهاتف حسب المتطلبات.</p></div>
+        </div>
+        <div class="service-note" data-ar="يتم الاتفاق على نطاق العمل والمدة والتكلفة بعد فهم المتطلبات وتقييم حجم المشروع." data-en="Scope, timeline, and cost are agreed after understanding the requirements and evaluating the project.">يتم الاتفاق على نطاق العمل والمدة والتكلفة بعد فهم المتطلبات وتقييم حجم المشروع.</div>
+      </div>
+    </section>
+
+    <section class="contact-section wrap" id="contact">
+      <div class="contact-panel">
+        <div class="contact-content">
+          <div class="section-label light-label"><span>05</span><b data-ar="التواصل والعمل" data-en="CONTACT & OPPORTUNITIES">التواصل والعمل</b></div>
+          <h2 data-ar="لديك فكرة أو فرصة؟<br><em>يسعدني التواصل معك.</em>" data-en="Have a project or opportunity?<br><em>I'd be glad to connect.</em>">لديك فكرة أو فرصة؟<br><em>يسعدني التواصل معك.</em></h2>
+          <p data-ar="إذا كنت تبحث عن تنفيذ نظام أو موقع أو تطبيق، أو ترغب في مناقشة فرصة عمل أو تعاون، تواصل معي عبر الوسيلة المناسبة." data-en="If you need a system, website, or application, or would like to discuss a job or collaboration opportunity, reach out through your preferred channel.">إذا كنت تبحث عن تنفيذ نظام أو موقع أو تطبيق، أو ترغب في مناقشة فرصة عمل أو تعاون، تواصل معي عبر الوسيلة المناسبة.</p>
+          <div class="contact-links">
+            <a href="https://wa.me/967774951965" target="_blank" rel="noopener"><span class="contact-symbol">◉</span><span><small data-ar="واتساب / اتصال" data-en="WHATSAPP / PHONE">واتساب / اتصال</small><b dir="ltr">+967 774 951 965</b></span><i>↗</i></a>
+            <a href="mailto:admin@graduation.com"><span class="contact-symbol">✉</span><span><small data-ar="البريد الإلكتروني" data-en="EMAIL ADDRESS">البريد الإلكتروني</small><b>admin@graduation.com</b></span><i>↗</i></a>
+            <a href="https://www.instagram.com/h6t.z2/" target="_blank" rel="noopener"><span class="contact-symbol">◎</span><span><small>INSTAGRAM</small><b>@h6t.z2</b></span><i>↗</i></a>
           </div>
-          <div class="visual-card-bottom"><span class="pulse-line"></span><span>AVAILABLE FOR LEARNING & COLLABORATION</span></div>
         </div>
-        <div class="floating-chip chip-html"><span>&lt;/&gt;</span> HTML</div>
-        <div class="floating-chip chip-db"><span>◈</span> DATABASE</div>
-        <div class="visual-spark spark-one">✳</div><div class="visual-spark spark-two">✦</div>
+        <div class="contact-decoration"><div class="deco-circle"></div><span>A.</span></div>
       </div>
-    </section>
-
-    <section class="trust-strip section-wrap">
-      <span data-i18n="stripLabel">CURRENTLY EXPLORING</span>
-      <div class="strip-items"><b>WEB DEVELOPMENT</b><i></i><b>DATABASES</b><i></i><b>SOFTWARE DESIGN</b><i></i><b>CYBERSECURITY</b></div>
-    </section>
-
-    <section class="section-wrap section-block" id="about">
-      <div class="section-kicker"><span>01 /</span> <span data-i18n="aboutKicker">GET TO KNOW ME</span></div>
-      <div class="section-heading-row"><h2 data-i18n="aboutTitle">A little about <em>me.</em></h2><p data-i18n="aboutIntro">Technology is more than code — it's a way to solve real problems and make everyday work better.</p></div>
-      <div class="about-grid">
-        <div class="about-main">
-          <p data-i18n="aboutP1">I'm Abdulmalik Saeed Al-Khudri, a fourth-level Bachelor's student in Information Technology at Community College of Amran. I'm developing my skills through hands-on practice and building projects that connect what I learn with real-world needs.</p>
-          <p data-i18n="aboutP2">My current interests include web application development, database systems, and the foundations of cybersecurity. I value clean work, continuous learning, and solutions that are simple to use.</p>
-          <a class="inline-link" href="#contact"><span data-i18n="connect">Get in touch</span> <span>↗</span></a>
-        </div>
-        <div class="about-facts">
-          <div class="fact-card"><span class="fact-number">04</span><span data-i18n="factLevel">Bachelor's level · IT</span></div>
-          <div class="fact-card"><span class="fact-number">01</span><span data-i18n="factMindset">Mindset: keep improving</span></div>
-          <div class="fact-note"><span class="note-star">✳</span><p data-i18n="factQuote">“Learn deeply. Build thoughtfully. Improve continuously.”</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="skills-section" id="skills">
-      <div class="section-wrap section-block">
-        <div class="section-kicker"><span>02 /</span> <span data-i18n="skillsKicker">WHAT I WORK WITH</span></div>
-        <div class="section-heading-row"><h2 data-i18n="skillsTitle">Tools in my <em>toolkit.</em></h2><p data-i18n="skillsIntro">Technologies I've studied or used in practice. I'm continuously expanding this toolkit.</p></div>
-        <div class="skills-grid">
-          <article class="skill-card"><div class="skill-icon icon-code">&lt;/&gt;</div><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript · Bootstrap</p><span data-i18n="skillFront">Structure, responsive layouts & interaction</span></article>
-          <article class="skill-card"><div class="skill-icon icon-server">⌘</div><h3>Backend</h3><p>PHP · Laravel</p><span data-i18n="skillBack">Application logic & web development</span></article>
-          <article class="skill-card"><div class="skill-icon icon-database">◫</div><h3>Databases</h3><p>MySQL · SQL</p><span data-i18n="skillData">Data modeling & database fundamentals</span></article>
-          <article class="skill-card"><div class="skill-icon icon-tools">✳</div><h3>Tools & Learning</h3><p>Git · GitHub · Python</p><span data-i18n="skillTools">Version control & continuous learning</span></article>
-        </div>
-        <p class="skills-disclaimer" data-i18n="skillsDisclaimer">Skill list reflects my current learning and practical exposure — not a claim of expert-level proficiency.</p>
-      </div>
-    </section>
-
-    <section class="section-wrap section-block" id="projects">
-      <div class="section-kicker"><span>03 /</span> <span data-i18n="projectsKicker">SELECTED WORK</span></div>
-      <div class="section-heading-row"><h2 data-i18n="projectsTitle">Things I'm <em>building.</em></h2><p data-i18n="projectsIntro">A selection of academic and personal work. More projects will be added as they develop.</p></div>
-      <article class="project-card">
-        <div class="project-preview">
-          <div class="dashboard-window">
-            <div class="dashboard-top"><span></span><span></span><span></span><b>PROJECT HUB</b></div>
-            <div class="dashboard-content"><div class="dash-sidebar"><i></i><i></i><i></i><i></i></div><div class="dash-main"><div class="dash-heading"></div><div class="dash-stats"><i></i><i></i><i></i></div><div class="dash-table"><i></i><i></i><i></i><i></i></div></div></div>
-          </div>
-          <span class="preview-caption">WEB APPLICATION / LARAVEL</span>
-        </div>
-        <div class="project-info"><div class="project-topline"><span class="project-index">01 — ACADEMIC PROJECT</span><span class="project-status"><i></i><span data-i18n="inProgress">In development</span></span></div><h3 data-i18n="projectName">Graduation Projects Management System</h3><p data-i18n="projectDesc">A web-based platform concept designed to organize graduation projects, student teams, supervisors, submissions, and evaluation workflows.</p><div class="project-tags"><span>Laravel</span><span>PHP</span><span>MySQL</span><span>Bootstrap</span></div><a class="project-link" href="https://github.com/bdalmlkalkhdry16-prog/graduation-project-management" target="_blank" rel="noopener noreferrer"><span data-i18n="viewGithub">View on GitHub</span> <span>↗</span></a></div>
-      </article>
-      <div class="project-footnote"><span>✳</span><span data-i18n="projectNote">This portfolio is a work in progress. Project details and links will be refined as the work is finalized.</span></div>
-    </section>
-
-    <section class="journey-section">
-      <div class="section-wrap section-block">
-        <div class="section-kicker"><span>04 /</span> <span data-i18n="journeyKicker">THE ROAD AHEAD</span></div>
-        <div class="section-heading-row"><h2 data-i18n="journeyTitle">Always in <em>progress.</em></h2><p data-i18n="journeyIntro">The goal is not to know everything. It's to keep learning and become better at solving problems.</p></div>
-        <div class="journey-list">
-          <div class="journey-item"><span class="journey-dot"></span><div><b data-i18n="journeyNow">Now</b><h3 data-i18n="journeyNowTitle">Strengthening my IT foundation</h3><p data-i18n="journeyNowDesc">Studying core IT concepts and applying them through academic and practical projects.</p></div></div>
-          <div class="journey-item"><span class="journey-dot"></span><div><b data-i18n="journeyNext">Next</b><h3 data-i18n="journeyNextTitle">Growing as a web developer</h3><p data-i18n="journeyNextDesc">Improving my software engineering practices, backend development, and project quality.</p></div></div>
-          <div class="journey-item"><span class="journey-dot"></span><div><b data-i18n="journeyFuture">Long term</b><h3 data-i18n="journeyFutureTitle">Exploring cybersecurity</h3><p data-i18n="journeyFutureDesc">Building a stronger understanding of secure systems and ethical cybersecurity.</p></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-wrap contact-section section-block" id="contact">
-      <div class="contact-panel"><div class="contact-orb"></div><div class="section-kicker"><span>05 /</span> <span data-i18n="contactKicker">LET'S CONNECT</span></div><h2 data-i18n="contactTitle">Have an idea?<br><em>Let's build it.</em></h2><p data-i18n="contactText">I'm open to learning opportunities, meaningful collaborations, and conversations about technology.</p><div class="contact-actions"><a class="button button-light" href="https://github.com/bdalmlkalkhdry16-prog" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a><a class="contact-social" href="#home"><span data-i18n="backTop">Back to top</span> ↑</a></div></div>
     </section>
   </main>
 
-  <footer class="site-footer section-wrap"><a class="brand footer-brand" href="#home"><span class="brand-mark">A</span><span>ABDULMALIK<span class="brand-dot">.</span></span></a><p data-i18n="footerText">Designed & built with curiosity.</p><span>© <span id="year"></span> Abdulmalik Saeed Al-Khudri</span></footer>
+  <footer class="footer wrap"><a class="logo" href="#home"><span class="logo-icon">A</span><span>ABDULMALIK<span class="blue">.</span></span></a><p data-ar="مطور يتعلم، يبني، ويتطور باستمرار." data-en="Learning, building, and improving every day.">مطور يتعلم، يبني، ويتطور باستمرار.</p><small>© <span id="year"></span> Abdulmalik Saeed Al-Khudri</small></footer>
   <script src="script.js"></script>
 </body>
 </html>

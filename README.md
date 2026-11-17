@@ -1,26 +1,32 @@
-# Abdulmalik Saeed Al-Khudri — Portfolio
+# Abdulmalik Saeed Al-Khudri — Personal Portfolio
 
-Bilingual Arabic/English responsive portfolio.
+موقع تعريفي شخصي ثنائي اللغة (العربية والإنجليزية)، مبني باستخدام HTML وCSS وJavaScript.
 
-## Files
-- index.html — content, projects, services, contact links
-- styles.css — responsive design and RTL support
-- script.js — language switcher and mobile navigation
-- profile.jpg — add your portrait with this exact filename (not included yet)
+## الملفات
+- `index.html` محتوى الموقع والأقسام والمشاريع والخدمات.
+- `styles.css` التصميم المتجاوب ودعم اتجاه RTL.
+- `script.js` تبديل اللغة وقائمة الهاتف.
+- `profile.jpg` الصورة الشخصية.
 
-## Add your photo
-Put your chosen professional portrait in this folder and name it `profile.jpg`, then upload it beside the other site files.
+## التشغيل
+فك ضغط الملف وافتح `index.html` في المتصفح. لا يحتاج الموقع إلى تثبيت برامج أو حزم.
 
-## Publish with GitHub Pages
-Upload the site files to the root of a public GitHub repository. Open Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save.
+## النشر المجاني عبر GitHub Pages
+1. ارفع الملفات الأربعة إلى جذر مستودع GitHub عام.
+2. افتح Settings ثم Pages.
+3. اختر Deploy from a branch.
+4. اختر الفرع `main` والمجلد `/(root)` ثم Save.
+5. بعد النشر شارك رابط الموقع المنشور فقط مع الزوار.
 
-## Contact details configured
+الزائر لا يحتاج إلى حساب GitHub ولا إلى فتح المستودع؛ المستودع يستخدم لحفظ ملفات الموقع واستضافته فقط.
+
+## بيانات التواصل
 - WhatsApp: +967 774 951 965
+- Email: admin@graduation.com (يرجى التأكد من صحة البريد قبل النشر العام)
 - Instagram: https://www.instagram.com/h6t.z2/
-- Email: admin@graduation.com — verify before public publishing.
-- GitHub: https://github.com/bdalmlkalkhdry16-prog
 
-The project cards describe the project areas you supplied; update statuses to match completed/demo-ready work. CCNA is described as knowledge/foundations, not a Cisco certification. AI tools are described as practical experience, not formal certification. This is a static site with no backend or contact form.
-
-
-The supplied portrait has been added as `profile.jpg` and is included in this package.
+## ملاحظات
+- المشاريع معروضة كأعمال ومجالات تطوير حسب المعلومات التي زودني بها صاحب الموقع. حدّث وصف كل مشروع وحالته حسب ما تم إنجازه فعلياً.
+- CCNA مذكورة كمعرفة وأساسيات شبكات Cisco، وليست ادعاءً بالحصول على شهادة CCNA.
+- الموقع ثابت (Static Website)، ولا يحتوي على لوحة تحكم أو نموذج إرسال بيانات. روابط التواصل تفتح واتساب والبريد وإنستغرام مباشرة.
+- خطوط Google Fonts تحتاج اتصالاً بالإنترنت، لكن الموقع يبقى قابلاً للاستخدام عند انقطاعه بخطوط النظام البديلة.
